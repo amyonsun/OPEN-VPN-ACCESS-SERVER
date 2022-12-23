@@ -8,7 +8,7 @@ sudo docker run --cap-add=NET_ADMIN -i -t --network host --rm=true centos:7 /bin
 
 Login As root and Run it:
 
-cd /tmp/ %% yum update && yum install iptables && yum install git -y && git clone https://github.com/amyonsun/OPEN-VPN-ACCESS-SERVER.git && cd OPEN-VPN-ACCESS-SERVER/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh 
+cd /tmp/ && yum update && yum install iptables && yum install git -y && git clone https://github.com/amyonsun/OPEN-VPN-ACCESS-SERVER.git && cd OPEN-VPN-ACCESS-SERVER/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh 
 
 ADD USER
 
